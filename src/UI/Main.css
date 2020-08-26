@@ -1,0 +1,121 @@
+.building_icon{
+  text-align: center;
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+}
+.boy_icon{
+    text-align: center;
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+}
+body{
+    overflow-x: hidden;
+}
+.inputbox{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align:right;
+}
+.inputStyle{
+    height: 50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0,0.1);
+    background-color: rgba(128, 128, 128, 0.08);
+    direction: rtl;
+   
+}
+.inputStyle1{
+    height: 50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0,0.1);
+    background-color: rgba(128, 128, 128, 0.08);
+    direction: rtl;
+   
+}
+.inputStyleSignup{
+    height: 50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0,0.1);
+    background-color: rgb(255, 255, 255,0.3);
+    margin-right: 50px;
+    margin-top: 10px;
+    direction: rtl;
+   
+}
+.inputStyleSignup1{
+    height: 50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0,0.1);
+    background-color: rgb(255, 255, 255,0.3);
+   
+    margin-top: 10px;
+    direction: rtl;
+}
+@media screen and (max-width: 1000px) {
+.inputStyle{
+    width: 150px;
+}
+}
+@media screen and (max-width: 570px) {
+    .inputStyle{
+        width: 100px;
+    }
+    }
+::-webkit-scrollbar { 
+
+    display: none;
+
+}
+.firstpage{
+ background-color: rgb(128, 128, 128,0.4);
+}
+.txt_first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+.input_search{
+    width: 630px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255,0.6);
+    border-style: solid;
+    border-color: rgb(0, 0, 0,0);
+    direction: rtl;
+}
+.stepper_cont{
+    height: 60vh;
+ 
+   width: 100%;
+}
+.enter_data{
+   background-color: rgb(128, 128, 128,0.2);
+    height: 55vh;
+    border-radius: 30px;
+}
+.txt_signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    padding-bottom: 60px;
+   
+}
+.inputCode{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255,0.3);
+    border-radius: 10px;
+    
+}
